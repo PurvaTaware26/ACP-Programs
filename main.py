@@ -1,9 +1,9 @@
-import calculator
+from mypackage import add, subtract, multiply, divide
+from mypackage import message
 
-a = float(input("Enter first number: "))
-b = float(input("Enter second number: "))
+print(add(5, 3))       
+print(subtract(10, 4))  
+print(multiply(6, 7))   
+print(divide(20, 5))     
 
-print("Addition:", calculator.add(a, b))
-print("Subtraction:", calculator.subtract(a, b))
-print("Multiplication:", calculator.multiply(a, b))
-print("Division:", calculator.divide(a, b))
+print("csw")
